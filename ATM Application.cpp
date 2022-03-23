@@ -36,7 +36,7 @@ int main()
         system("cls");
 
 
-        // Handling options using switch case
+        // Handling options using switch case from input option
         switch (option) {
         case 1: cout << "Balance: " << balance << " GBP" << endl;
             break;
