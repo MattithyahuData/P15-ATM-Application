@@ -38,12 +38,19 @@ int main()
 
         // Handling options using switch case from input option
         switch (option) {
+
+        // If option == 1 then user has selected Balance option
         case 1: cout << "Balance: " << balance << " GBP" << endl;
+
+            // Terminates the execution inside a switch block and breaks out of it.
             break;
+
         case 2: cout << "Deposit amount: ";
             double depositamount;
             cin >> depositamount;
             balance += depositamount;
+
+            // Terminates the execution inside a switch block and breaks out of it.
             break;
         case 3: cout << "Withdrawal amount: ";
             double withdrawalamount;
@@ -54,6 +61,8 @@ int main()
             }
             else
                 cout << "Withdrawal failed. Insufficient balance." << endl;
+
+            // Terminates the execution inside a switch block and breaks out of it.
             break;
         }
     } while (option!= 4);
@@ -62,3 +71,6 @@ int main()
     // Getting rid of excess system output
     system("pause>0");
 }
+
+
+/// CLOUD DEPLOYMENT 
