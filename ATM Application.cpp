@@ -45,18 +45,34 @@ int main()
             // Terminates the execution inside a switch block and breaks out of it.
             break;
 
+         // If option == 2 then user has selected deposit option
         case 2: cout << "Deposit amount: ";
+
+            // Defining depositamount double variable 
             double depositamount;
+
+            // Taking user input to allow user to enter desired deposit amount 
             cin >> depositamount;
+
+            // Adding the deposit amount to the initial balance 
             balance += depositamount;
 
             // Terminates the execution inside a switch block and breaks out of it.
             break;
+
+         // If option == 3 then user has selected withdrawal option
         case 3: cout << "Withdrawal amount: ";
+
+            // Defining withdrawalamount double variable 
             double withdrawalamount;
+
+            // Taking user input to allow user to enter desired deposit amount 
             cin >> withdrawalamount;
 
+            // Before an output is given, first checking that the requested withdrawal amount is avaialble in the individuals bank account 
             if (withdrawalamount <= balance) {
+
+            // 
                 balance -= withdrawalamount;
             }
             else
