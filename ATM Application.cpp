@@ -19,9 +19,13 @@ void Menu() {
 // Compiler program execution 
 int main()
 {   
-    // Variables 
+    // Variables initiation and assignment 
     int option;
     double balance = 1000.43;
+    double yo = 199.7849;
+    cout.precision(2);
+
+    cout << yo << endl;
  
     // Do loop to recieve input for ATM Menu 
     do {
@@ -34,7 +38,6 @@ int main()
 
         // Clearing console 
         system("cls");
-
 
         // Handling options using switch case from input option
         switch (option) {
@@ -72,15 +75,21 @@ int main()
             // Before an output is given, first checking that the requested withdrawal amount is avaialble in the individuals bank account 
             if (withdrawalamount <= balance) {
 
-            // 
+                // Subtracting withdrawal amount from the initial bank balance 
                 balance -= withdrawalamount;
             }
-            else
+            // Else if requested withdrawal amount is greater than balance then return an error 
+            else if (withdrawalamount > balance) {
+
+                // Print withdrawal failed text with new line 
                 cout << "Withdrawal failed. Insufficient balance." << endl;
+
+            }
 
             // Terminates the execution inside a switch block and breaks out of it.
             break;
         }
+    // 
     } while (option!= 4);
     
 
