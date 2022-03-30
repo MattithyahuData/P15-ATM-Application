@@ -23,7 +23,7 @@ int main()
     int option;
     double balance = 1000.43;
     double yo = 199.7849;
-    cout.precision(2);
+    // cout.precision(2);
 
     cout << yo << endl;
  
