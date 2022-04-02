@@ -90,7 +90,7 @@ int main()
             break;
         }
     // 
-    } while (option!= 4);
+    } while (option  != 4);
     
 
     // Getting rid of excess system output
