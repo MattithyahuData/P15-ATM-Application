@@ -23,7 +23,8 @@ int main()
     int option;
     double balance = 1000.43;
     double yo = 199.7849;
-    // 2dp precision output 
+
+    // SET!! 2dp precision output 
 
     cout << yo << endl;
  
