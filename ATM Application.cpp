@@ -4,7 +4,6 @@
 // Using std on a global level 
 using namespace std;
 
-
 // Function to output Menu options 
 void Menu() {
     // Printing menu options with new line seperator
