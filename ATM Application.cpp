@@ -1,6 +1,8 @@
 // Input output stream, importing iostrem library HEADER FILE
 #include <iostream>
 
+#include <iomanip>
+
 // Using std on a global level 
 using namespace std;
 
@@ -25,7 +27,7 @@ int main()
 
     // SET 2dp precision output 
 
-    cout << yo << endl;
+    cout  << fixed << setprecision(3) << yo << endl;
  
     // Do loop to recieve input for ATM Menu 
     do {
