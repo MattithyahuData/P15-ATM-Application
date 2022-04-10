@@ -23,12 +23,8 @@ int main()
 {   
     // Variables initiation and assignment 
     int option;
-    double balance = 1000.43;
-    double yo = 199.7849;
-
-    // SET 2dp precision output 
-
-    cout  << fixed << setprecision(3) << yo << endl;
+    double balance = 1000.50;
+    
  
     // Do loop to recieve input for ATM Menu 
     do {
@@ -46,7 +42,7 @@ int main()
         switch (option) {
 
         // If option == 1 then user has selected Balance option
-        case 1: cout << "Balance: " << balance << " GBP" << endl;
+        case 1: cout << "Balance: " << fixed << setprecision(3) << balance << " GBP" << endl;
 
             // Terminates the execution inside a switch block and breaks out of it.
             break;
