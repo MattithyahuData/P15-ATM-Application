@@ -1,7 +1,7 @@
 // Input output stream, importing iostrem library HEADER FILE
 #include <iostream>
 
-// 
+///
 #include <iomanip>
 
 // Using std on a global level 
