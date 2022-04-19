@@ -82,7 +82,7 @@ int main()
                 // Print withdrawal failed text with new line 
                 cout << "Withdrawal failed. Insufficient balance." << endl;
 
-            }
+            } //--- End of Switch options 
 
             // Terminates the execution inside a switch block and breaks out of it.
             break;
