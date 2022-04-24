@@ -90,9 +90,6 @@ int main()
     // TRY WHILE IN (1,2,3) THEREFORE IT SATISFIES ALL CASES IN THE DO LOOP 
     } while (option  != 4);
 
-    ///// C++ Booleans 
-    
-
     // Getting rid of excess system output
     system("pause>0");
 }
