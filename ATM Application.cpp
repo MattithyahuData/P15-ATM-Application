@@ -87,6 +87,7 @@ int main()
             // Terminates the execution inside a switch block and breaks out of it.
             break;
         }
+
     // TRY WHILE IN (1,2,3) THEREFORE IT SATISFIES ALL CASES IN THE DO LOOP 
     } while (option  != 4);
 
