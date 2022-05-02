@@ -82,14 +82,15 @@ int main()
                 // Print withdrawal failed text with new line 
                 cout << "Withdrawal failed. Insufficient balance." << endl;
 
-            } //--- End of Switch options 
+            }  
 
             // Terminates the execution inside a switch block and breaks out of it.
             break;
-        }
 
-    // TRY WHILE IN (1,2,3) THEREFORE IT SATISFIES ALL CASES IN THE DO LOOP 
-    } while (option  != 4);
+        }//--- End of Switch options
+
+    // Where the option is not equal to 4  
+    } while (option  != 4); //--- End of do loop
 
     // Getting rid of excess system output
     system("pause>0");
